@@ -5,9 +5,9 @@ import Routes from "./Routes";
 function App() {
   return (
     <div id="root">
-    <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
-      <Routes />
-    </GoogleOAuthProvider>
+      <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
+        <Routes />
+      </GoogleOAuthProvider>
     </div>
   );
 }
