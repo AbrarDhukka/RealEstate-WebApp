@@ -1,7 +1,5 @@
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
-
 import { Button, CheckBox, Img, Input, List, Slider, Text } from "components";
 import LandingPageCard from "components/LandingPageCard";
 import LandingPageFooter from "components/LandingPageFooter";
