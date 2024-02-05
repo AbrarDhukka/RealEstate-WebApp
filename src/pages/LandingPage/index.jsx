@@ -9,7 +9,6 @@ import LandingPageHeader from "components/LandingPageHeader";
 
 const LandingPagePage = () => {
   const navigate = useNavigate();
-
   const landingPageCardPropList = [
     {},
     { image: "images/img_image_1.png" },
